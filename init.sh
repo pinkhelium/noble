@@ -15,7 +15,7 @@ git remote add origin $remote_repo_url;
 
 # TOUCH PROJECT_NAME.PY
 touch $api_project_name.py;
-echo "import hug" >> $api_project_name.py
+echo "import hug \n" >> $api_project_name.py
 git add . ;
 git commit -m "Initial Commit!";
 git push origin master;
